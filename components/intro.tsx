@@ -9,7 +9,6 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { FaSpaghettiMonsterFlying } from "react-icons/fa6";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
