@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { LuLifeBuoy } from "react-icons/lu";
+import { LuWrench } from "react-icons/lu";
+import conductorImg from "@/public/conductor.png";
+import flappyBirdImg from "@/public/flappy_bird.png";
+import portfolioWebsiteImg from "@/public/portfolio_website.png";
 
 export const links = [
 	{
@@ -35,52 +35,60 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated bootcamp",
-		location: "Miami, FL",
+		title: "Assistant Head Swim Coach and Head Lifeguard",
+		location: "Orchard Park, NY",
 		description:
-			"I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+			"I worked as a swim coach and head lifeguard at Eagle Ridge Recreation Association for 7 years. I was responsible for coaching the swim team and leading the team of lifeguards. I made some really great friends and memories here.",
+		icon: React.createElement(LuLifeBuoy),
+		date: "2018 - 2024",
+	},
+	{
+		title: "Quality Engineering Intern",
+		location: "Buffalo, NY",
+		description:
+			"I worked as a quality engineering intern at 3AM Innovations for 4 months, where I learned a lot about software testing and automation. 3AM is a small company, but the QA team was very welcoming and great to work with. It was a very valuable experience.",
+		icon: React.createElement(LuWrench),
+		date: "2024",
+	},
+	{
+		title: "Computer Science Student",
+		location: "Fredonia, NY",
+		description:
+			"Currently, I am a computer science student at SUNY Fredonia. I am pursuing a Bachelor's degree in Computer Science. I expect to graduate this May of 2025.",
 		icon: React.createElement(LuGraduationCap),
-		date: "2019",
-	},
-	{
-		title: "Front-End Developer",
-		location: "Orlando, FL",
-		description:
-			"I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-		icon: React.createElement(CgWorkAlt),
-		date: "2019 - 2021",
-	},
-	{
-		title: "Full-Stack Developer",
-		location: "Houston, TX",
-		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-		icon: React.createElement(FaReact),
 		date: "2021 - present",
 	},
 ] as const;
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "Conductor",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: corpcommentImg,
+			"This is the project I worked on at 3AM Innovations. It is a Python app meant for automating the testing of 3AM's FLORIAN software.",
+		tags: ["Python", "TKinter GUI"],
+		imageUrl: conductorImg,
 	},
 	{
-		title: "rmtDev",
+		title: "Flappy Bird Clone",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-		imageUrl: rmtdevImg,
+			"A clone of the popular mobile game, Flappy Bird. I made this project using Unity and C# as part of a game development class I took in college.",
+		tags: ["Unity", "C#"],
+		imageUrl: flappyBirdImg,
 	},
 	{
-		title: "Word Analytics",
+		title: "Portfolio Website",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: wordanalyticsImg,
+			"This website is one of, if not, my largest project. It is built on the Next.js framework and is hosted on Vercel.",
+		tags: [
+			"TypeScript",
+			"React",
+			"Next.js",
+			"Tailwind",
+			"Framer",
+			"Resend",
+			"Vercel",
+		],
+		imageUrl: portfolioWebsiteImg,
 	},
 ] as const;
 

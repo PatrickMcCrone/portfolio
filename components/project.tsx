@@ -59,10 +59,10 @@ export default function Project({
 				<Image
 					src={imageUrl}
 					alt="Project I worked on"
-					quality={95}
+					quality={100}
 					className="absolute hidden sm:block top-8 -right-40
-                    w-[28.25rem] rounded-t-lg shadow-2xl
-                    transition
+                    w-[28.25rem] rounded-t-lg shadow-2xl filter saturate-[1.25]
+                    contrast-[1.05] transition
                     group-hover:scale-[1.04]
                     group-hover:-translate-x-3 
                     group-hover:translate-y-3
@@ -73,7 +73,14 @@ export default function Project({
                     group-even:group-hover:rotate-2
                     
                     group-even:right-[initial]
-                    group-even:-left-40"
+                    group-even:-left-40
+					group-even:top-12
+        			group-even:object-cover
+        			group-even:h-[17rem]
+					
+					[.group:nth-child(3)_&]:top-16
+        			[.group:nth-child(3)_&]:object-cover
+        			[.group:nth-child(3)_&]:h-[16rem]"
 				/>
 			</section>
 		</motion.div>
