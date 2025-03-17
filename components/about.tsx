@@ -37,12 +37,12 @@ export default function About() {
 				<span className="font-medium">full-time position</span> as a
 				software developer or software quality assurance engineer.
 			</p>
-			<span className="italic">When I'm not coding</span>, I enjoy playing
-			video games and going to the gym. I also enjoy{" "}
+			<span className="italic">When I&apos;m not coding</span>, I enjoy
+			playing video games and going to the gym. I also enjoy{" "}
 			<span className="font-medium">learning new things</span>. I am
 			currently learning about{" "}
-			<span className="font-medium">game development in Unity</span>. I'm
-			also learning about{" "}
+			<span className="font-medium">game development in Unity</span>.
+			I&apos;m also learning about{" "}
 			<span className="font-medium">Full-Stack Development</span>.<p></p>
 		</motion.section>
 	);
