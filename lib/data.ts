@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Assistant Head Swim Coach and Head Lifeguard",
-		location: "Orchard Park, NY",
-		description:
-			"I worked as a swim coach and head lifeguard at Eagle Ridge Recreation Association for 7 years. I was responsible for coaching the swim team and leading the team of lifeguards. I made some really great friends and memories here.",
-		icon: React.createElement(LuLifeBuoy),
-		date: "2018 - 2024",
-	},
-	{
-		title: "Quality Engineering Intern",
-		location: "Buffalo, NY",
-		description:
-			"I worked as a quality engineering intern at 3AM Innovations for 4 months, where I learned a lot about software testing and automation. 3AM is a small company, but the QA team was very welcoming and great to work with. It was a very valuable experience.",
-		icon: React.createElement(LuWrench),
-		date: "2024",
-	},
-	{
 		title: "Computer Science Student",
 		location: "Fredonia, NY",
 		description:
 			"Currently, I am a computer science student at SUNY Fredonia. I am pursuing a Bachelor's degree in Computer Science. I expect to graduate this May of 2025.",
 		icon: React.createElement(LuGraduationCap),
 		date: "2021 - present",
+	},
+	{
+		title: "Quality Engineering Intern",
+		location: "Buffalo, NY",
+		description:
+			"I worked as a quality engineering intern at 3AM Innovations for 4 months, where I learned a lot about software testing and automation. It was a very valuable experience.",
+		icon: React.createElement(LuWrench),
+		date: "2024",
+	},
+	{
+		title: "Assistant Head Swim Coach and Head Lifeguard",
+		location: "Orchard Park, NY",
+		description:
+			"I worked as a swim coach and head lifeguard at Eagle Ridge Recreation Association for 7 years. I was responsible for coaching the swim team and leading the team of lifeguards.",
+		icon: React.createElement(LuLifeBuoy),
+		date: "2018 - 2024",
 	},
 ] as const;
 

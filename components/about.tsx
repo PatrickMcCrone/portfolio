@@ -20,30 +20,23 @@ export default function About() {
 		>
 			<SectionHeading>About Me</SectionHeading>
 			<p className="mb-3">
-				Currently, I am approaching graduation in May with a degree in{" "}
+				I am approaching graduation in May of 2025 with a degree in{" "}
 				<span className="font-medium">Computer Science</span>. I decided
 				to pursue Computer Science because of my passion for programming
 				that I found while I was in high school. My favorite part of
-				programming is the{" "}
-				<span className="italic">problem-solving</span> aspect. I{" "}
-				<span className="underline">love</span> the feeling of finally
-				figuring out a solution to a problem. My strong suits are{" "}
-				<span className="font-medium">Python, C# (.NET), and C++</span>.
-				I am also familiar with Game Development (Unity/C#), Web
-				Development (HTML/CSS/ReactJS/NodeJS), Multi-Platform
-				Development (.NET MAUI), and Mobile Development (iOS/Swift). I
-				am always looking to learn new technologies. I am currently
-				looking for a{" "}
-				<span className="font-medium">full-time position</span> as a
-				software developer or software quality assurance engineer.
+				programming is the problem-solving aspect. I chase the feeling
+				of figuring out a solution to a problem. My strong suits are
+				Python, C# (.NET), and C++. Also, I am familiar with Game
+				Development (Unity/C#), Web Development
+				(HTML/CSS/ReactJS/NodeJS), Multi-Platform Development (.NET
+				MAUI), and Mobile Development (iOS/Swift). I am always looking
+				to learn new technologies. I am currently looking for a
+				full-time position as a software developer or software quality
+				assurance engineer.
 			</p>
-			<span className="italic">When I&apos;m not coding</span>, I enjoy
-			playing video games and going to the gym. I also enjoy{" "}
-			<span className="font-medium">learning new things</span>. I am
-			currently learning about{" "}
-			<span className="font-medium">game development in Unity</span>.
-			I&apos;m also learning about{" "}
-			<span className="font-medium">Full-Stack Development</span>.<p></p>
+			When I&apos;m not coding, I enjoy being active, learning new things,
+			and spending time with friends and family. I am currently learning
+			about game development in Unity and Full-Stack Development.<p></p>
 		</motion.section>
 	);
 }

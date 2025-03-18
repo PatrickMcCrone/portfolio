@@ -62,18 +62,10 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 			>
 				<span className="font-bold">Hello, I&apos;m Patrick.</span>{" "}
-				I&apos;m a{" "}
-				<span className="font-bold">
-					computer science student (Class of 2025)
-				</span>{" "}
-				at <span className="font-bold">SUNY Fredonia</span>. I enjoy
-				building{" "}
-				<span className="italic">all types of applications</span>. My
-				focuses are{" "}
-				<span className="underline">
-					Python, C# (.NET), and Web Development
-				</span>
-				.
+				I&apos;m a computer science student (Class of 2025) at{" "}
+				<span className="font-bold">SUNY Fredonia</span>. I enjoy
+				building all types of applications. My focuses are Python, C#
+				(.NET), and Web Development .
 			</motion.h1>
 
 			<motion.div
