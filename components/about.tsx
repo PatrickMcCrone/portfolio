@@ -20,23 +20,15 @@ export default function About() {
 		>
 			<SectionHeading>About Me</SectionHeading>
 			<p className="mb-3">
-				I am approaching graduation in May of 2025 with a degree in{" "}
-				<span className="font-medium">Computer Science</span>. I decided
-				to pursue Computer Science because of my passion for programming
-				that I found while I was in high school. My favorite part of
-				programming is the problem-solving aspect. I chase the feeling
-				of figuring out a solution to a problem. My strong suits are
-				Python, C# (.NET), and C++. Also, I am familiar with Game
-				Development (Unity/C#), Web Development
-				(HTML/CSS/ReactJS/NodeJS), Multi-Platform Development (.NET
-				MAUI), and Mobile Development (iOS/Swift). I am always looking
-				to learn new technologies. I am currently looking for a
-				full-time position as a software developer or software quality
-				assurance engineer.
+				I am a recent{" "}
+				<span className="font-medium">Computer Science</span> graduate
+				with a strong foundation in software development and a growing
+				interest in IT support and cybersecurity. My recent internship
+				in quality engineering sparked a passion for ensuring system
+				reliability and security. This summer, I am pursuing{" "}
+				<span className="font-medium">CompTIA A+ and Security+</span>{" "}
+				certifications to further solidify my expertise in the IT field.
 			</p>
-			When I&apos;m not coding, I enjoy being active, learning new things,
-			and spending time with friends and family. I am currently learning
-			about game development in Unity and Full-Stack Development.<p></p>
 		</motion.section>
 	);
 }

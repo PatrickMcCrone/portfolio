@@ -3,7 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { LuLifeBuoy } from "react-icons/lu";
 import { LuWrench } from "react-icons/lu";
 import conductorImg from "@/public/conductor.png";
-import flappyBirdImg from "@/public/flappy_bird.png";
+import eventAppImg from "@/public/EventApp.png";
 import portfolioWebsiteImg from "@/public/portfolio_website.png";
 
 export const links = [
@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Computer Science Student",
+		title: "Computer Science Graduate",
 		location: "Fredonia, NY",
 		description:
-			"Currently, I am a computer science student at SUNY Fredonia. I am pursuing a Bachelor's degree in Computer Science. I expect to graduate this May of 2025.",
+			"I am a recent computer science graduate from SUNY Fredonia. I graduated with a Bachelor of Science in Computer Science.",
 		icon: React.createElement(LuGraduationCap),
-		date: "2021 - present",
+		date: "2021 - 2025",
 	},
 	{
 		title: "Quality Engineering Intern",
@@ -64,21 +64,21 @@ export const projectsData = [
 	{
 		title: "Conductor",
 		description:
-			"This is the project I worked on at 3AM Innovations. It is a Python app meant for automating the testing of 3AM's FLORIAN software.",
+			"A project I worked on at 3AM Innovations. It is a Python app meant for automating the testing of 3AM's FLORIAN software.",
 		tags: ["Python", "TKinter GUI"],
 		imageUrl: conductorImg,
 	},
 	{
-		title: "Flappy Bird Clone",
+		title: "Event Manager App",
 		description:
-			"A clone of the popular mobile game, Flappy Bird. I made this project using Unity and C# as part of a game development class I took in college.",
-		tags: ["Unity", "C#"],
-		imageUrl: flappyBirdImg,
+			"A web-based event management app I built with 3 other students in my Software Engineering class in college. It is designed for faculty to manage and keep track of meetings and events.",
+		tags: ["Next.js", "Node.js", "PostgreSQL", "Jira"],
+		imageUrl: eventAppImg,
 	},
 	{
 		title: "Portfolio Website",
 		description:
-			"This website is one of, if not, my largest project. It is built on the Next.js framework and is hosted on Vercel.",
+			"A full-stack website built on the Next.js framework hosted on Vercel.",
 		tags: [
 			"TypeScript",
 			"React",
@@ -93,20 +93,16 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+	"IT Fundamentals",
+	"Hardware Configuration",
+	"Hardware Troubleshooting",
+	"PC Building",
 	"Python",
 	"C#",
 	"C++",
+	"Node.js",
 	".NET MAUI",
 	"Unity",
-	"HTML",
-	"CSS",
-	"JavaScript",
-	"TypeScript",
-	"React",
-	"Next.js",
-	"Node.js",
 	"Git",
-	"Tailwind",
-	"Express",
-	"PostgreSQL",
+	"Jira",
 ] as const;
