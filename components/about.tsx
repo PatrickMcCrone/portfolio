@@ -24,9 +24,13 @@ export default function About() {
 				<span className="font-medium">Computer Science</span> graduate
 				with a strong foundation in software development and a growing
 				interest in IT support and cybersecurity. My recent internship
-				in quality engineering sparked a passion for ensuring system
-				reliability and security. This summer, I am pursuing{" "}
-				<span className="font-medium">CompTIA A+ and Security+</span>{" "}
+				in quality engineering sparked a passion for problem solving and
+				troubleshooting tech. I currently hold a CompTIA A+
+				certification. This summer, I am pursuing the{" "}
+				<span className="font-medium">
+					{" "}
+					CompTIA Network+ and Security+
+				</span>{" "}
 				certifications to further solidify my expertise in the IT field.
 			</p>
 		</motion.section>
