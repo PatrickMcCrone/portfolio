@@ -64,10 +64,9 @@ export default function Intro() {
 				<span className="font-bold">Hello, I&apos;m Patrick.</span>{" "}
 				I&apos;m a computer science graduate (Class of 2025) from{" "}
 				<span className="font-bold">SUNY Fredonia</span> with a passion
-				for technology, systems, and cybersecurity. My current focus is
-				on IT support, Python scripting, and security fundamentals, with
-				additional experience in C# (.NET) and full-stack web
-				development.
+				for technology, systems, and networks. My current focus is on IT
+				support, Python scripting, and networking, with additional
+				experience in C# (.NET) and full-stack web development.
 			</motion.h1>
 
 			<motion.div

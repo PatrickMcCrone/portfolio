@@ -29,7 +29,7 @@ export default function About() {
 				certification. This summer, I am pursuing the{" "}
 				<span className="font-medium">
 					{" "}
-					CompTIA Network+ and Security+
+					Cisco Certified Network Associate Certification
 				</span>{" "}
 				certifications to further solidify my expertise in the IT field.
 			</p>
