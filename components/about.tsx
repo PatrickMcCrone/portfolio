@@ -31,7 +31,7 @@ export default function About() {
 					{" "}
 					Cisco Certified Network Associate Certification
 				</span>{" "}
-				certifications to further solidify my expertise in the IT field.
+				to further solidify my expertise in the IT field.
 			</p>
 		</motion.section>
 	);

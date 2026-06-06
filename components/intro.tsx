@@ -65,7 +65,7 @@ export default function Intro() {
 				I&apos;m a computer science graduate (Class of 2025) from{" "}
 				<span className="font-bold">SUNY Fredonia</span> with a passion
 				for technology, systems, and networks. My current focus is on IT
-				support, Python scripting, and networking, with additional
+				support, Python scripting and networking, with additional
 				experience in C# (.NET) and full-stack web development.
 			</motion.h1>
 
